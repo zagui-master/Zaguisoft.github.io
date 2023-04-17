@@ -1,0 +1,1 @@
+export const showUserNameInheader=()=>{const e=document.getElementById("conteiner_user_name"),n=JSON.parse(sessionStorage.getItem("current_user")),s=JSON.parse(sessionStorage.getItem("account"))||[],{name:t,lastName:r}=s.find((e=>e.email===n)),a=`Welcom ${t} ${r}`;e.innerText=a};showUserNameInheader();

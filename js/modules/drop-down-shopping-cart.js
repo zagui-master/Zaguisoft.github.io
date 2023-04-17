@@ -1,0 +1,1 @@
+export const dropDownShoppingCart=()=>{const e=document.querySelector(".conteiner-shopping-car"),o=document.querySelector(".conten-icon-up-shopp"),t=document.querySelector(".cart-shopping-cart");e.addEventListener("click",(()=>{t.classList.add("show")})),o.addEventListener("click",(()=>{t.classList.remove("show")}))};dropDownShoppingCart();

@@ -1,0 +1,1 @@
+import{admin}from"../data/admins.js";export const showUserNameAdminInheader=()=>{const e=document.getElementById("conteiner_user_name"),n=JSON.parse(sessionStorage.getItem("current_user")),{role:r,full_name:m}=admin.findIndex((e=>e.account===n)),t=`Welcome ${r} ${m}`;e.innerText=t};showUserNameAdminInheader();

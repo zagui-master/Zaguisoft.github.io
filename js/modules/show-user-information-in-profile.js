@@ -1,0 +1,1 @@
+const showUserInformationInProfile=()=>{const e=document.getElementById("full_name_user"),n=JSON.parse(sessionStorage.getItem("current_user")),s=JSON.parse(sessionStorage.getItem("account"))||[],{name:t,lastName:o}=s.find((e=>e.email===n)),r=`${t} ${o}`;e.innerText=r};showUserInformationInProfile();

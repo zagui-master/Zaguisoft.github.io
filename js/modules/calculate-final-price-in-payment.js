@@ -1,0 +1,1 @@
+export const calculateFinalPriceInPayment=()=>{const e=document.getElementById("total_payment"),t=function(e){return e.reduce(((e,t)=>e+parseFloat(t.course_price)),0)}(function(e){const t=`${e}`;return JSON.parse(localStorage.getItem(t))||[]}(JSON.parse(sessionStorage.getItem("current_user"))));e.innerText="Total $ "+Math.round(100*t)/100};calculateFinalPriceInPayment();

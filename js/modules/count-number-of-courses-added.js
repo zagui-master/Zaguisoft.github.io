@@ -1,0 +1,1 @@
+export const numberOfCoursesAdded=()=>{const e=document.getElementById("courses_add"),t=function(){const e=`${JSON.parse(sessionStorage.getItem("current_user"))}`;return JSON.parse(localStorage.getItem(e))||[]}();e.innerText=t.length};numberOfCoursesAdded();

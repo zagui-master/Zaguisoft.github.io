@@ -1,0 +1,1 @@
+export const changeStateCourse=()=>{const e=JSON.parse(sessionStorage.getItem("current_user"))||[];let t=JSON.parse(localStorage.getItem(`purchased_${e}`))||[],s=JSON.parse(localStorage.getItem("stock"));for(const e of t){let t=s.findIndex((t=>t.id==e.id));-1!==t&&(s[t].state="Purchased")}localStorage.setItem(`updated_stock_${e}`,JSON.stringify(s))};
