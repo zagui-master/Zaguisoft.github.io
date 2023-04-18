@@ -1,1 +1,1 @@
-.card-user-information,.section-user-information{align-items:center;display:flex;justify-content:center;margin-top:170px;width:100%}.card-user-information{flex-direction:column;margin-top:0;row-gap:10px}.card-user-information>span{font-size:25px;font-weight:600}
+.card-user-information,.section-user-information{align-items:center;display:flex;justify-content:center;margin-top:170px;width:100%}.card-user-information{flex-direction:column;margin-top:0;row-gap:10px;width:auto}.card-user-information>span{font-size:25px;font-weight:600}
