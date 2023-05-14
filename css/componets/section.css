@@ -1,1 +1,1 @@
-.section-session{align-items:center;-moz-column-gap:50px;column-gap:50px;display:grid;flex-wrap:wrap;grid-template-columns:repeat(2,auto);height:100vh;justify-content:center;width:100%}
+.section-session{align-items:center;display:flex;height:100vh;justify-content:center;width:100%}
