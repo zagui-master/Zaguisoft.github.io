@@ -1,1 +1,1 @@
-import{showUserNameInheader}from"./modules/show-user-name-header.js";showUserNameInheader();
+import{showUserNameInheader}from"./modules/show-user-name-header.js";import{sendMessage}from"./modules/send-message.js";sendMessage(),showUserNameInheader();

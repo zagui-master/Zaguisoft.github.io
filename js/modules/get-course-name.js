@@ -1,0 +1,1 @@
+const conten_courses=document.getElementById("conten_courses");conten_courses.addEventListener("click",(e=>{if("show_info_course"===e.composedPath()[2].childNodes[3].id){let o=e.composedPath()[2].childNodes[1].childNodes[3].childNodes[1].childNodes[0].nodeValue;localStorage.setItem("course_title",JSON.stringify(o))}}));
